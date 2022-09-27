@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+	padding: 0;
+}
+.page {
+    max-width: 1440px;
+    height: 2471px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 96px 65px 91px 65px;
+    font-family:'Times New Roman', Times, sans-serif;
+}
+
+h1, h2 {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;    
+}
+
+p, a {
+    font-size: 25px;
+}
+a {
+    color: #0000FF;
+}
+
+img {
+    width: 600px;
+}
+
+.footer {
+    margin-bottom: 165px;
+}
