@@ -2,15 +2,12 @@
     margin: 0;
 	padding: 0;
     box-sizing: border-box;
-    background-color: #E5E5E5;
 }
 .page {
-    max-width: 1440px;
     margin: 0 auto;
     padding: 45px 65px;
     font-family:'Times New Roman', Times, sans-serif;
     font-weight: bold;
-    background-color: white;
 }
 .navigation, .content, .contacts {
     background-color: white;
@@ -29,14 +26,9 @@ h2 {
 p, a {
     font-size: 25px;    
     margin: 40px 0px;
-    background-color: white;
 }
 ul {
     margin-left: 15px;
-    background-color: white;
-}
-li {
-    background-color: white;
 }
 img {
     width: 700px;
