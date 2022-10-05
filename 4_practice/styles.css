@@ -35,6 +35,11 @@
     margin-top: 20px;
 }
 
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
 .content div p:first-of-type {
     margin-top: 0;
     margin-bottom: 40px;
