@@ -23,7 +23,8 @@ body {
 }
 
 .content {
-    margin: 200px;
+    width: 1040px;
+    margin: 0 auto;
 }
 
 .menu > li {
