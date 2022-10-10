@@ -52,12 +52,11 @@ body {
 }
 
 /* Макет для десктопов*/
-@media only screen and (min-width: 844px) {
+@media only screen and (min-width: 845px) {
     .content {
         flex-wrap: wrap;
         flex-direction: row;
         margin: 100px auto;
-        width: 1440px;
     }
     .article {
         width: 600px;
