@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.yellow {
+    background: #FFE138;
+    font-size: 50px;
+    text-transform: uppercase;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 25px;
+    padding: 45px;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #000000;
+    margin: 25px;
+}
+
+.block > img {
+    width: 100%;
+}
+
+.text {
+    padding: 30px;
+}
+
+.text > p:first-of-type {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Макет для мобильных*/
+@media only screen and (max-width: 900px) {
+    .content {
+        flex-wrap: wrap;
+    }
+}
+
+/* Макет для десктопов*/
+@media only screen and (min-width: 845px) {
+    .content {
+        flex-wrap: nowrap;
+    }
+    .block {
+        width: 33.3%;
+    }
+}
