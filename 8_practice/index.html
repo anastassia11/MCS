@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="pink">
-        <nav>
+    <header class="pink upper">
+        <nav class="menu">
             <ul class="topmenu">
                 <li><a href="#">меню</a>
                     <ul class="submenu">
@@ -23,20 +23,20 @@
     </header>
 
     <main>
-        <section class="form">
-            <form action="https://formspree.io/f/meqdlqno" method="post">
-                <div class="form-box">
-                    <div class="form-row">
-                    <label for="name">Имя</label>
-                    <input id="name" name="name" type="text" placeholder="Имя">
+        <section class="for-form">
+            <form class="form" action="https://formspree.io/f/meqdlqno" method="post">
+                <div class="form-box pink">
+                    <div class="form-row pink">
+                        <label for="name">Имя</label>
+                        <input class="pink" id="name" name="name" type="text" placeholder="Имя" >
                     </div>
-                    <div class="form-row">
+                    <div class="form-row pink" >
                         <label for="city">Город</label>
-                        <input id="city" name="city" type="text" placeholder="Город">
+                        <input class="pink" id="city" name="city" type="text" placeholder="Город">
                     </div>
-                    <div class="form-row">
+                    <div class="form-row pink">
                         <label for="gift">Подарок</label>
-                        <select id="gift" name="gift">
+                        <select class="pink" id="gift" name="gift">
                             <option value="no" selected>- Не выбрано -</option>
                             <option value="book">Книга в твердом переплете</option>
                             <option value="box">Подарочный бокс</option>
@@ -46,21 +46,21 @@
                     </div>
                     <div class="form-row">
                         <label for="email">Электронная почта</label>
-                        <input id="email" name="email" type="email" placeholder="Электронная почта">
+                        <input class="pink" id="email" name="email" type="email" placeholder="Электронная почта">
                     </div>
                 </div>
-                <div class="">
-                    <button class="" type="submit" value="send">Отправить</button>
+                <div class="button-box">
+                    <button class="button upper" type="submit" value="send">Отправить</button>
                 </div>
             </form>
         </section>
         
-        <section class="answer">
-            <p>ваша посылка уже в пути</p>
+        <section class="answer upper">
+            <p>ваша посылка уже в пути!</p>
         </section>
     </main>
 
-    <footer class="pink">
+    <footer class="pink upper">
         <p>секретные посылки для друзей</p>
         <p>© 2022</p>
     </footer>
